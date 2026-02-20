@@ -1,0 +1,7 @@
+N=input("taper le premier lettre de notre nom")
+AS=ord(N)
+SU=chr(AS+1)
+PR=chr(AS-1)
+print("code Ascii: ",AS)
+print("succsessur: ",SU)
+print("prédécesseur: ",PR)
